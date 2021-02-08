@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+
+ul{
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+ul li{
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding : 2px 20px;
+    border: 1px solid transparent;
+    
+    
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.6ms ease;
+}
+
+.logo img{
+    margin-top: 10px;
+    float: left;
+    width: 70px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.main{
+    max-width: 1600px;
+    margin:auto;
+    
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../img/mother.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+
+}
+
+.heading{
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+
+}
+.heading h1{
+    color: white;
+    font-size:2.7vw;
+    text-align: center;
+}
+
+.button{
+    position: absolute;
+    top: 48%;
+    left: 63%;
+    transform: translate(-50%,-50%);
+
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    padding : 10px 30px;
+    border: 1px solid #fff;
+    font-size:0.7vw;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.6ms ease;
+}
