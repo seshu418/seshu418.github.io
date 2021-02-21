@@ -1,0 +1,30 @@
+*{
+    color: blue;
+    margin: 0px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    display: inline;
+    padding: 5px;
+    color: white;
+    
+    
+}
+header{
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    padding:  3px 3px 3px 3px;
+}
+#navbar, #centerHeader, #logoHeader{
+    align-self: center;      
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
